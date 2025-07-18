@@ -1,58 +1,81 @@
-# Employment and Wage Trends Across Industries (2020–2022)
+**Overview**
 
-This repository contains the final project submitted for **DSCI 5260: Business Process Analytics** under the guidance of **Professor Dr. Sameh Shamroukh**. The project investigates employment and wage patterns across industries using the **Quarterly Census of Employment and Wages (QCEW)** dataset from 2020 to 2022.
+This project explores employment and wage trends in the U.S. from 2020 to 2022 using data from the Quarterly Census of Employment and Wages (QCEW). The goal is to uncover patterns in industry growth, wage distributions, and job market changes during and after the COVID-19 pandemic.
 
-## 📊 Project Overview
+Using Python and a combination of statistical analysis and machine learning, the project seeks to identify key drivers of employment growth and provide actionable insights for businesses, policy makers, and analysts.
 
-The U.S. labor market experienced significant transformations during 2020–2022 due to the COVID-19 pandemic, rising automation, inflation, and remote work adoption. This project explores these dynamics with a focus on:
+**Key Questions Explored**
 
-- Sector-wise wage growth and employment shifts
-- Public vs private sector disparities
-- Impacts of remote work and automation
-- Wage sustainability and economic inequality
+1. Which industries have shown the most significant growth or decline in employment?
 
-## 📂 Contents
+2. How have average wages changed across sectors from 2020 to 2022?
 
-- 📁 `data/` – Cleaned QCEW data from 2020–2022  
-- 📁 `scripts/` – Python & R scripts used for data cleaning, visualization, and modeling  
-- 📁 `visualizations/` – Key plots: employment trends, wage distribution, top industries  
-- 📄 `Final_Project_Report.pdf` – Full research document with findings and insights  
-- 📄 `README.md` – Project summary
+3. What are the predictors of wage levels across different job sectors?
 
-## 🔧 Tools & Technologies
+4. Can we model and forecast employment or wage trends using regression techniques?
 
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
-- **R** (dplyr, ggplot2, t-tests, ANOVA)
-- **Excel** – Preliminary exploration
-- **Tableau** – Interactive dashboards
-- **Google Colab** – For executing notebooks
 
-## 📌 Key Findings
+**Tools and Technologies Used**
 
-- 💼 **Highest Wage Growth** was seen in technical sectors like aerospace and automotive manufacturing.
-- 🧑‍🔬 **Healthcare and Tech** sectors showed resilient employment growth.
-- 💸 **Wage inequality** persisted, especially among women and minority groups.
-- 🏛️ **Public sector** wages were more stable but grew slower than private sector wages.
-- ⚙️ **Automation** and **remote work** redefined workforce composition and job security.
 
-## 📈 Methods Used
+Python – for data manipulation and analysis
 
-- Descriptive statistics and outlier removal (IQR)
-- Correlation analysis (Pearson, Chi-Square)
-- ANOVA and t-tests for hypothesis testing
-- Time-series visualizations and wage growth calculations
-- Regression modeling and industry comparisons
+Pandas – to clean and explore the dataset
 
-## 🎯 Research Questions
+Seaborn & Matplotlib – for data visualization
 
-1. What factors influenced employment and wage trends between 2020–2022?
-2. How do public and private sectors differ in wage progression and job stability?
-3. What are the long-term effects of automation and remote work on employment?
-4. How do inflation and minimum wage policy affect real income?
+Scikit-learn – for implementing machine learning models
 
-## 📎 Data Source
+Statsmodels – for statistical analysis and hypothesis testing
 
-- **Quarterly Census of Employment and Wages (QCEW)**  
-  U.S. Bureau of Labor Statistics  
-  [https://catalog.data.gov/dataset/quarterly-census-of-employment-and-wages-qcew-a6fea](https://catalog.data.gov/dataset/quarterly-census-of-employment-and-wages-qcew-a6fea)
+Jupyter Notebook – to document and present the analysis
 
+QCEW Data – publicly available labor statistics dataset (qcew-2020-2022.csv)
+
+**Data Preparation**
+
+The notebook begins with:
+
+Importing relevant Python libraries
+
+Loading the QCEW dataset
+
+Performing exploratory data analysis to understand data distributions, missing values, and variable types
+
+Cleaning the dataset to remove inconsistencies
+
+**Analysis Highlights**
+
+**Descriptive Analysis**
+
+Employment and wage distributions across years and sectors
+
+Outlier detection and removal
+
+Correlation heatmaps to identify relationships among numeric variables
+
+**Statistical Testing**
+
+ANOVA and hypothesis tests to determine wage differences across industries
+
+Regression modeling (OLS) for wage prediction
+
+**Machine Learning Models**
+
+Linear Regression, Ridge, and Lasso for salary prediction
+
+Random Forest and Gradient Boosting for advanced regression modeling
+
+Model evaluation using R² and RMSE
+
+**Results & Insights**
+
+**Wage disparities** exist across industries, with certain tech and finance roles seeing the highest growth.
+
+**Statistical models** indicate significant predictors of wage, such as industry, year, and employment levels.
+
+**ML models** enhance prediction accuracy, with Gradient Boosting performing particularly well in terms of R² score.
+
+**Conclusion**
+
+This project demonstrates how combining statistical reasoning with machine learning techniques can offer deep insights into employment trends. Understanding these patterns is crucial for strategic workforce planning and economic forecasting.
