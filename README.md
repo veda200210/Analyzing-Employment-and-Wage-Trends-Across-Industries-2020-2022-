@@ -18,63 +18,63 @@ Using Python and a combination of statistical analysis and machine learning, the
 **Tools and Technologies Used**
 
 
-Python – for data manipulation and analysis
+- Python – for data manipulation and analysis
 
-Pandas – to clean and explore the dataset
+- Pandas – to clean and explore the dataset
 
-Seaborn & Matplotlib – for data visualization
+- Seaborn & Matplotlib – for data visualization
 
-Scikit-learn – for implementing machine learning models
+- Scikit-learn – for implementing machine learning models
 
-Statsmodels – for statistical analysis and hypothesis testing
+- Statsmodels – for statistical analysis and hypothesis testing
 
-Jupyter Notebook – to document and present the analysis
+- Jupyter Notebook – to document and present the analysis
 
-QCEW Data – publicly available labor statistics dataset (qcew-2020-2022.csv)
+- QCEW Data – publicly available labor statistics dataset (qcew-2020-2022.csv)
 
 **Data Preparation**
 
-The notebook begins with:
+- The notebook begins with:
 
-Importing relevant Python libraries
+- Importing relevant Python libraries
 
-Loading the QCEW dataset
+- Loading the QCEW dataset
 
-Performing exploratory data analysis to understand data distributions, missing values, and variable types
+- Performing exploratory data analysis to understand data distributions, missing values, and variable types
 
-Cleaning the dataset to remove inconsistencies
+- Cleaning the dataset to remove inconsistencies
 
 **Analysis Highlights**
 
 **Descriptive Analysis**
 
-Employment and wage distributions across years and sectors
+- Employment and wage distributions across years and sectors
 
-Outlier detection and removal
+- Outlier detection and removal
 
-Correlation heatmaps to identify relationships among numeric variables
+- Correlation heatmaps to identify relationships among numeric variables
 
 **Statistical Testing**
 
-ANOVA and hypothesis tests to determine wage differences across industries
+- ANOVA and hypothesis tests to determine wage differences across industries
 
-Regression modeling (OLS) for wage prediction
+- Regression modeling (OLS) for wage prediction
 
 **Machine Learning Models**
 
-Linear Regression, Ridge, and Lasso for salary prediction
+- Linear Regression, Ridge, and Lasso for salary prediction
 
-Random Forest and Gradient Boosting for advanced regression modeling
+- Random Forest and Gradient Boosting for advanced regression modeling
 
-Model evaluation using R² and RMSE
+- Model evaluation using R² and RMSE
 
 **Results & Insights**
 
-**Wage disparities** exist across industries, with certain tech and finance roles seeing the highest growth.
+- **Wage disparities** exist across industries, with certain tech and finance roles seeing the highest growth.
 
-**Statistical models** indicate significant predictors of wage, such as industry, year, and employment levels.
+- **Statistical models** indicate significant predictors of wage, such as industry, year, and employment levels.
 
-**ML models** enhance prediction accuracy, with Gradient Boosting performing particularly well in terms of R² score.
+- **ML models** enhance prediction accuracy, with Gradient Boosting performing particularly well in terms of R² score.
 
 **Conclusion**
 
